@@ -1,0 +1,14 @@
+.header {
+  position: relative;
+}
+
+.header-wrap {
+  margin: 15px auto 30px auto;
+  padding: 0 15px;
+  max-width: 650px;
+  border-bottom: 1px solid rgb(216, 40, 39);
+}
+
+.header-link {
+
+}

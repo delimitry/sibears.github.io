@@ -1,0 +1,11 @@
+.page {
+  position: relative;
+  font-size: 1em;
+  line-height: 1.375;
+}
+
+.page-wrap {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 650px;
+}

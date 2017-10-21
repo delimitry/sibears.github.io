@@ -1,0 +1,23 @@
+.social {
+  text-decoration: none;
+
+  color: #336;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: rgb(216, 40, 39);
+    text-decoration: none;
+  }
+}
+
+.social-icon {
+  & > svg {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.social-username {
+
+}

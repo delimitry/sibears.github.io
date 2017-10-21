@@ -1,0 +1,30 @@
+.posts-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts-item {
+  margin: 0;
+  padding: 0;
+}
+
+.posts-meta {
+  color: #828282;
+}
+
+.posts-title {
+  margin-bottom: 0;
+}
+
+.posts-link {
+  color: #336;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #336;
+    text-decoration: underline;
+  }
+}

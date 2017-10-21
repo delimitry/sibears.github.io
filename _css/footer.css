@@ -1,0 +1,19 @@
+.footer {
+  position: relative;
+}
+
+.footer-wrap {
+  margin: 60px auto 15px auto;
+  padding: 15px 15px;
+  max-width: 650px;
+  border-top: 1px solid rgb(216, 40, 39);
+  display: flex;
+}
+
+.footer-social {
+  flex: 1;
+}
+
+.footer-description {
+  flex: 2;
+}

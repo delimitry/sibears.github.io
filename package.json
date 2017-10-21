@@ -1,0 +1,20 @@
+{
+  "name": "sibears",
+  "version": "3.0.0",
+  "description": "Static Blog",
+  "main": "index.js",
+  "repository": "https://sibears.ru",
+  "author": "Aleksei Krasnoperov <aleksei@krasnoperov.me>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "postcss": "^6.0.13",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-font-family-system-ui": "^2.0.1",
+    "postcss-import": "^11.0.0"
+  },
+  "scripts": {
+    "build": "postcss -o assets/main.css _css/main.css"
+  }
+}

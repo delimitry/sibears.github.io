@@ -1,0 +1,129 @@
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: system-ui; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 100%;
+  font-weight: 300;
+  color: #333;
+}
+
+pre, code {
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
+  font-size: 1em;
+  font-size-adjust: 0.5;
+}
+
+pre {
+  font-size: 0.95em;
+  line-height: 1.2em;
+}
+
+p, figure, blockquote, ul, ol, .highlighter-rouge {
+  margin: 0 0 1em 0;
+}
+
+ul, ol {
+  padding: 0 0 0 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  font-style: italic;
+
+  padding: 1em 1em 0 3em;
+  font-style: italic;
+  background: #ccc;
+  background: rgba(0,0,0,0.06);
+  color: #222;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+h1 {
+  font-size: 2em; /* 2x body copy size = 32px */
+  line-height: 1.25; /* 45px / 36px */
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 1.625em; /* 1.625x body copy size = 26px */
+  line-height: 1.15384615; /* 30px / 26px */
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-size: 1.375em; /* 1.375x body copy size = 22px */
+  line-height: 1.13636364; /* 25px / 22px */
+  margin: 0.5em 0;
+}
+
+h4 {
+  font-size: 1.125em; /* 1.125x body copy size = 18px */
+  line-height: 1.11111111;
+  margin: 0.5em 0;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.11111111;
+  margin: 0.5em 0;
+}
+
+h6 {
+  font-size: 1em;
+  line-height: 1.11111111;
+  margin: 0.5em 0;
+}
+
+
+hr {
+  border: 0;
+  background: rgb(216, 40, 39);
+  height: 1px;
+  margin: 1em -15px;
+}
+
+pre {
+  padding: 15px;
+  background: #3A3C42;
+  color: #f8f8f2;
+  margin: 0 -15px 1em;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgb(216, 40, 39);
+}
+
+dt {
+  font-weight: 700;
+}

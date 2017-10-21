@@ -1,0 +1,13 @@
+.post-header {
+  margin-bottom: 1em;
+}
+
+.post-title {
+  margin-bottom: 0;
+  color: #336;
+}
+
+.post-meta {
+  //font-size: 14px;
+  color: #828282;
+}
