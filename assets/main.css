@@ -353,3 +353,68 @@ dt {
       -ms-flex: 2;
           flex: 2;
 }
+
+.tag {
+  display: inline-block;
+  background: rgba(106, 159, 181, .15);
+  padding: 0 8px;
+  padding: 0 .5rem;
+  margin-right: 8px;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: #6a9fb5;
+  font-size: 90%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none
+}
+
+.tag:active,
+  .tag:focus,
+  .tag:hover {
+  text-decoration: none;
+  background: #6a9fb5;
+  color: #fff;
+}
+
+.tag-post {
+  display: inline
+}
+
+.tag-post a {
+  text-decoration: none;
+}
+
+.tag-post {
+  color: #336;
+}
+
+.tag-post a:active,
+  .tag-post a:focus,
+  .tag-post a:hover {
+  text-decoration: none;
+}
+
+.tag-post small {
+  display: inline-block;
+  font-size: 80%;
+  color: #9a9a9a;
+  margin: 0;
+  padding: 0;
+}
+
+.tag-list {
+  padding-left: 0;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.tag-item {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  padding-left: 2em
+}
+
+.tag-item:hover {
+  padding-left: 0;
+}

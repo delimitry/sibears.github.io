@@ -1,0 +1,57 @@
+.tag {
+  display: inline-block;
+  background: rgba(106,159,181,0.15);
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: #6a9fb5;
+  font-size: 90%;
+  transition: all 0.1s ease-in-out;
+  text-decoration: none;
+
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    background: #6a9fb5;
+    color: #fff;
+  }
+}
+
+.tag-post {
+  display: inline;
+
+  & a {
+    text-decoration: none;
+  }
+
+  color: #336;
+
+  & a:active,
+  & a:focus,
+  & a:hover {
+    text-decoration: none;
+  }
+
+  & small {
+    display: inline-block;
+    font-size: 80%;
+    color: #9a9a9a;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.tag-list {
+  padding-left: 0;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+.tag-item {
+  transition: all 0.1s ease-in-out;
+  padding-left: 2em;
+  &:hover {
+    padding-left: 0;
+  }
+}
