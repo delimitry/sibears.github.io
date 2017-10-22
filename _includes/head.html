@@ -9,4 +9,9 @@
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
+    {% if page.path contains '_posts' %}
+    {% unless page.skip_amp %}
+        <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url }}">
+    {% endunless %}
+    {% endif %}
 </head>
