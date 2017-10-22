@@ -23,6 +23,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-feed"
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
