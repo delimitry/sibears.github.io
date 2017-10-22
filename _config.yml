@@ -16,16 +16,15 @@
 title: Sibears
 email: info@sibears.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  CTF Team from Tomsk State University
+  Explosive mixture of creative people
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sibears
-github_username:  sibears
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
