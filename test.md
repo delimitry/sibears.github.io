@@ -121,3 +121,11 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+### Show code with Github Gist
+
+{% gist krasnoperov/8c7a014f0b54354f9c1f1c3afa197bdd %}
+
+### Use emoji
+
+:+1:
