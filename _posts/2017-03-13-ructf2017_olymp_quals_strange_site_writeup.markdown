@@ -5,6 +5,7 @@ date:   2017-03-13 13:34:23 +0700
 categories: Разборы
 permalink: /labs/ructf2017_olymp_quals_strange_site_writeup/
 author: Deflate
+tags: [writeup, RuCTF-2017]
 ---
 
 Описание таска:

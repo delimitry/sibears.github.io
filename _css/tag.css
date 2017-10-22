@@ -1,32 +1,47 @@
 .tag {
   display: inline-block;
-  background: rgba(106,159,181,0.15);
-  padding: 0 .5rem;
-  margin-right: .5rem;
+  background: var(--color-lighter-red);
+  padding: 2px 0.5rem;
+  margin-right: 0.5rem;
   border-radius: 4px;
-  color: #6a9fb5;
+  color: var(--color-maximum-red);
   font-size: 90%;
   transition: all 0.1s ease-in-out;
   text-decoration: none;
+
+  & svg {
+    transition: fill 0.1s ease-in-out;
+    fill: var(--color-maximum-red);
+    display: inline-block;
+    vertical-align: text-top;
+  }
 
   &:active,
   &:focus,
   &:hover {
     text-decoration: none;
-    background: #6a9fb5;
-    color: #fff;
+    background: var(--color-maximum-red);
+    color: var(--color-white);
+
+    & svg {
+      fill: var(--color-white);
+    }
   }
+}
+
+.tag-title {
+  margin: 0 0 1rem 0;
+}
+
+.tag-section {
+  margin-bottom: 2rem;
 }
 
 .tag-post {
   display: inline;
+  font-weight: 300;
 
-  & a {
-    text-decoration: none;
-  }
-
-  color: #336;
-
+  & a,
   & a:active,
   & a:focus,
   & a:hover {
@@ -36,22 +51,25 @@
   & small {
     display: inline-block;
     font-size: 80%;
-    color: #9a9a9a;
-    margin: 0;
+    color: var(--color-graphite-gray);
+    margin: 0 0 0 0.5em;
     padding: 0;
   }
 }
 
 .tag-list {
   padding-left: 0;
-  list-style-type: circle;
   list-style-position: inside;
 }
 
 .tag-item {
   transition: all 0.1s ease-in-out;
-  padding-left: 2em;
+  padding-left: 1em;
+  margin-bottom: .3em;
+  list-style-type: circle;
+
   &:hover {
-    padding-left: 0;
+    list-style-type: disc;
+    padding-left: 0.1em;
   }
 }

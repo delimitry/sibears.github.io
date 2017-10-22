@@ -3,8 +3,6 @@ layout: default
 title: Tag
 ---
 
-<h1 class="page-title">Tags</h1>
-
 {% comment %}
 =======================
 The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
@@ -39,9 +37,13 @@ The following part removes dulpicated tags and invalid tags like blank tag.
 The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
+
+<section class="tag-section">
+    <h1 class="page-title">Tags</h1>
 {% for tag in tags %}
-    <a href="#{{ tag | slugify }}" class="tag"> {{ tag }} </a>
+    <a href="#{{ tag | slugify }}" class="tag"> {% include icon-tag.svg %} {{ tag }} </a>
 {% endfor %}
+</section>
 
 {% comment %}
 =======================

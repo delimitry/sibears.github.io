@@ -2,7 +2,7 @@
 layout: post
 categories: writeups
 date: "2017-10-21 14:34:23 +0300"
-title: "[FlareOn2017]pewpewboat"
+title: "[FlareOn2017] pewpewboat"
 author: groke
 tags: [writeup, FlareOn2017]
 ---

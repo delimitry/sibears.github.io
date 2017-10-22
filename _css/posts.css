@@ -5,12 +5,12 @@
 }
 
 .posts-item {
-  margin: 0;
+  margin: 0 0 2em 0;
   padding: 0;
 }
 
 .posts-meta {
-  color: #828282;
+  color: var(--color-graphite-gray);
 }
 
 .posts-title {
@@ -18,13 +18,13 @@
 }
 
 .posts-link {
-  color: #336;
+  color: var(--color-dark-blue);
   text-decoration: none;
 
   &:hover,
   &:active,
   &:focus {
-    color: #336;
+    color: var(--color-dark-blue);
     text-decoration: underline;
   }
 }

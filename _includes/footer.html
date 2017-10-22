@@ -1,21 +1,13 @@
 <footer class="footer">
-
     <div class="footer-wrap">
-
-        {% if site.github_username %}
         <div class="footer-social">
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-github.html username='sibears' %}
         </div>
-        {% endif %}
-
-        {% if site.twitter_username %}
         <div class="footer-social">
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username='sibears' %}
         </div>
-        {% endif %}
-
-        <div class="footer-description">{{ site.description | escape }}</div>
-
+        <div class="footer-social">
+            {% include icon-vk.html username='sibears_tomsk' %}
+        </div>
     </div>
-
 </footer>

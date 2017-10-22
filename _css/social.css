@@ -1,23 +1,37 @@
 .social {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 0.5rem;
+  border-radius: 4px;
+  background: none;
+  color: var(--color-graphite-gray);
+  transition: all 0.1s ease-in-out;
   text-decoration: none;
 
-  color: #336;
+  & svg {
+    fill: var(--color-graphite-gray);
+  }
 
   &:active,
   &:focus,
   &:hover {
-    color: rgb(216, 40, 39);
+    background: var(--color-maximum-red);
+    color: var(--color-white);
+
     text-decoration: none;
+
+    & svg {
+      fill: var(--color-white);
+    }
   }
 }
 
-.social-icon {
-  & > svg {
-    display: inline-block;
-    vertical-align: middle;
-  }
+.social-icon svg{
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -1px;
 }
 
-.social-username {
+.social--github svg {
 
 }

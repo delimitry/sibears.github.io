@@ -4,10 +4,9 @@
 
 .post-title {
   margin-bottom: 0;
-  color: #336;
+  color: var(--color-dark-blue);
 }
 
 .post-meta {
-  //font-size: 14px;
-  color: #828282;
+  color: var(--color-graphite-gray);
 }
